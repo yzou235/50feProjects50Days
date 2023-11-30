@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice-css-position</title>
+    <style>
+        .body{
+            box-sizing:border-box;
+        }
+        
+        .parent {
+            width:200px;
+            padding: 5px;
+            height: 200vh;
+        }
+        
+        .child {
+            width: 200px;
+        }
+
+        /* .child-1 {
+            position: relative; 
+            left: 20px;
+            bottom: 10px;
+        } */
+
+        /* .child-1 {
+            position: absolute; 
+            top: 0;
+        }
+        .parent {
+            position: relative;
+        } */
+
+        .child-1{
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent" style="background-color: lightblue;">
+        Parent
+        <div class="child-1 child" style="background-color: aquamarine;">One</div>
+        <div class="child-2 child" style="background-color: coral;">Two</div>
+        <div class="child-3 child" style="background-color: orange;">Three</div>
+    </div>
+</body>
+</html>
