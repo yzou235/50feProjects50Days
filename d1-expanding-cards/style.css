@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box; /* width will include padding and border. */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex; /* want to center everything */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* any content that overflows the element's box will be hidden, and the browser will not display scrollbars to allow users to see the hidden content. */
+    margin: 0; /* get rid of the margin */
+}
