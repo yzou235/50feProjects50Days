@@ -26,9 +26,14 @@
      - set `opacity: 0` make it only shown when active
    - format active panel
      - `flex: 5`
+     - add transition to h3
 
 3. Use media query to adjust display on small screens.
 
    - don't show the last two panels when screen is small
+   - `.panel:nth-of-type(){display: none};`
 
 4. Use JavaScript to realize expanding effect.
+   - declare panels variable
+   - define a function to remove active class
+   - panels for each loop, call removeActiveClasses function, add active to class
