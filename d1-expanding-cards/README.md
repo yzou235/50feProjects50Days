@@ -34,6 +34,8 @@
    - `.panel:nth-of-type(){display: none};`
 
 4. Use JavaScript to realize expanding effect.
-   - declare panels variable
+   - declare panels variable `document.querySelectorAll('.panel')`
    - define a function to remove active class
-   - panels for each loop, call removeActiveClasses function, add active to class
+     - `addEventListener()`
+     - `panel.classList.add('active')`
+   - panels for each loop, call removeActiveClasses function, add active to class `classList.remove('active')`
